@@ -96,7 +96,7 @@ async function Update_values(city){
    update_cards_info(city)
     show_page_of(weather_info_page)
     console.log(Weather_data)
-if (country=="Israel")
+if (country=="Israel"||country=="israel")
 show_page_of(israel_error);
 }
 
@@ -149,3 +149,4 @@ async function update_cards_info(city) {
     let current_date= New.toLocaleDateString('en-GB', my_options) ;
     today_date.textContent=current_date;
 }
+
