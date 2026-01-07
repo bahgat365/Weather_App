@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font "Poppins"-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- google icon -->
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<!-- link Css -->
+ <link rel="stylesheet" href="weather.css">
+
+<!-- favcon -->
+ <link rel="icon" href="./assets/favcon/Gemini_Generated_Image_aizbjhaizbjhaizb.png">
+    <title>Weather App</title>
+    
+</head>
+<body>
+
+    <div class="Weather_contaner">
+<!-- search -->
+        <div class="search_contaner">
+            <input type="text" class="search_input" placeholder="Search City">
+              <span class="material-symbols-outlined search_icon">search</span>
+        </div>
+    
+<!-- /info -->
+    <section class="weather_info" style="display: none;" >
+        <!-- location and time -->
+        <div class="location_contaner">
+            <div class="location">
+                <span class="material-symbols-outlined">location_on</span>
+                <h3 class="city_name">Jakarta</h3>
+            </div>
+            <div class="today_date regelar_text">
+                <p>wed,07 Aug</p>
+            </div>
+        </div>
+        <!-- end loc & time -->
+
+        <!-- temprature section photo and info -->
+         <div class="temp_contaner">
+             <img src="./assets/weather/clouds.svg" alt="" class="img">
+             <div class="temp">
+                <h4 class="temp_deg">29 ℃</h4>
+                <div class="regelar_text condition">clouds</div>
+             </div>
+         </div>
+        <!--  end temprature section photo and info -->
+          <!-- my part -->
+           <div class="suggetion">
+            <h4>لمى الهدوم يا ست الكل الدنيا مش هتشتى </h4>
+           </div>
+        <!-- start factors weather -->
+         <div class="factors_contaner">
+            <div class="humidity">
+                <span class="material-symbols-outlined">water_drop</span>
+                <div class="persentage">
+                    <p class="regelar_text ">Humidity</p>
+                    <p class="Humidity_per">55%</p>
+                </div>
+            </div>
+            <div class="wind">
+                <span class="material-symbols-outlined">Air</span>
+                <div class="persentage">
+                    <p class="regelar_text">Wind Speed</p>
+                    <p class="wind_speed">2 M/S</p>
+                </div>
+            </div>
+         </div>
+   <!-- footer cards -->
+      <div class="cards_contaner">
+        <div class="card">
+            <p class="regelar_text">05 Aug</p>
+            <img src="./assets/weather/thunderstorm.svg" alt=""  >
+            <h5>29 ℃</h5>
+        </div>
+<!-- card  -->
+                <div class="card">
+            <p class="regelar_text">05 Aug</p>
+            <img src="./assets/weather/thunderstorm.svg" alt=""   >
+            <h5>29 ℃</h5>
+             </div>
+<!-- card  -->
+                    <div class="card">
+            <p class="regelar_text">05 Aug</p>
+            <img src="./assets/weather/thunderstorm.svg" alt=""  >
+            <h5>29 ℃</h5>
+              </div>
+<!-- card  -->
+                    <div class="card">
+            <p class="regelar_text">05 Aug</p>
+            <img src="./assets/weather/thunderstorm.svg" alt="" >
+            <h5>29 ℃</h5>
+             </div>
+      </div>
+ </section>
+
+ <section class="search_city">
+    <img src="./assets/message/search-city.png" alt="">
+    <p>Search City</p>
+    <p>Find Out The Weather Condition Of The City </p>
+ </section>
+
+ <section class="search_city not_found " style="display: none;">
+    <img src="./assets/message/not-found.png" alt="">
+     <p>Search City</p>
+    <p>Find Out The Weather Condition Of The City </p>
+ </section>
+
+ <section class="israil search_city" style="display: none;">
+    <img src="./assets/close.png" alt="">
+    <h2 class="israil_h2" >Free Palastine</h2>
+    <p>Find Out The Weather Condition Of The City </p>
+ </section>
+
+</div>  
+ <!-- link js -->
+<script src="weather.js" ></script>  
+</body>
+</html>
